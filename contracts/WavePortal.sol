@@ -7,9 +7,7 @@ import "hardhat/console.sol";
 contract WavePortal {
     uint256 totalWaves;
 
-    /*
-     * A little magic, Google what events are in Solidity!
-     */
+
     event NewWave(address indexed from, uint256 timestamp, string message);
 
     /*
